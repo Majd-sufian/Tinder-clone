@@ -15,18 +15,18 @@ function Header() {
         justify="space-between"
         alignItems="flex-start"
       >
-        <Grid>
-          <PersonIcon />
+        <Grid className="header__icon">
+          <PersonIcon fontSize="large" />
         </Grid>
         <Grid>
           <img
-            className="header__logo"
+            className="header__logo header__icon"
             src="https://seeklogo.com/images/T/tinder-logo-FAAE852EC0-seeklogo.com.png"
             alt=""
           />
         </Grid>
-        <Grid>
-          <QuestionAnswerIcon />
+        <Grid className="header__icon">
+          <QuestionAnswerIcon fontSize="large" />
         </Grid>
       </Grid>
     </div>

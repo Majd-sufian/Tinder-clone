@@ -4,8 +4,20 @@
   padding: 24px;
 }
 
+.header__icon {
+  cursor: pointer;
+}
+.header__icon:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.2);
+}
+
 .header__logo {
   height: 40px;
   width: 90px;
   object-fit: contain;
+}
+
+.header > Grid {
+  cursor: pointer;
 }

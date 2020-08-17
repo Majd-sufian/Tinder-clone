@@ -3,6 +3,9 @@ import "./App.css";
 import Header from "./components/Header";
 import TinderCards from "./components/TinderCards";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SwipeButtons from "./components/SwipeButtons";
+// import database from "./firebase";
+// import { db } from "./firebase";
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
           <Route path="/">
             <Header />
             <TinderCards />
+            <SwipeButtons />
           </Route>
         </Switch>
       </Router>

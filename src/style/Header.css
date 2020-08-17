@@ -2,6 +2,7 @@
   color: grey;
   border-bottom: 1px solid #f9f9f9;
   padding: 24px;
+  background-color: white;
 }
 
 .header__icon {
@@ -20,4 +21,8 @@
 
 .header > Grid {
   cursor: pointer;
+}
+
+.messeges {
+  color: gray !important;
 }

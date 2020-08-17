@@ -5,8 +5,12 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import PersonIcon from "@material-ui/icons/Person";
 import QuestionAnswerIcon from "@material-ui/icons/QuestionAnswer";
+import Button from "@material-ui/core/Button";
+import { Link, useHistory } from "react-router-dom";
 
 function Header() {
+  const history = useHistory();
+  console.log(history);
   return (
     <div className="header">
       <Grid
@@ -26,7 +30,9 @@ function Header() {
           />
         </Grid>
         <Grid className="header__icon">
-          <QuestionAnswerIcon fontSize="large" />
+          <Link to="/chat">
+            <QuestionAnswerIcon fontSize="large" className="messeges" />
+          </Link>
         </Grid>
       </Grid>
     </div>

@@ -1,0 +1,48 @@
+.swipeButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 5vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.dot {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.dot:hover {
+  transition: 0.5s transform ease-in-out;
+  transform: scale(1.2);
+  background-color: black;
+}
+
+.replay {
+  color: #f5b748 !important;
+}
+
+.close {
+  color: #ec5e6f !important;
+}
+
+.star {
+  color: #62b4f9 !important;
+}
+
+.favorite {
+  color: #76e2b3 !important;
+}
+
+.flash {
+  color: #915dd1 !important;
+}
